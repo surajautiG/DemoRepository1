@@ -8,10 +8,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage2 {
-	private  WebDriver driver;
+	private  WebDriver driver ;
 	private WebDriverWait wait;
 	
-	//elements
+	//
 	@FindBy (xpath = "//div [@id='container_tt']")
 	private WebElement homepage;
 	
