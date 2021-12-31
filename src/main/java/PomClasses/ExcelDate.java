@@ -12,7 +12,7 @@ public class ExcelDate{
 	{
 		String path = "C:\\Users\\ADMIN\\Desktop\\Testing.xlsx";
 		
-		for(int i=0 ; i<=5 ; i++) //for row count
+		for(int i=0 ; i<=5 ; i++) 
 		{
 			for(int j=0 ; j<2 ; j++) // for cell count
 			{
