@@ -8,8 +8,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UsersPage {
-	private WebDriver driver;
-	private WebDriverWait wait;
+	
+	 WebDriver driver;
+	 WebDriverWait wait;
 	
 	@FindBy (xpath = "(//div[text()='Users'])[1]")
 	private WebElement users;
