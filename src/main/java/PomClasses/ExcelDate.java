@@ -16,6 +16,8 @@ public class ExcelDate{
 		{
 			for(int j=0 ; j<2 ; j++) // for cell count
 			{
+				
+				
 				FileInputStream file = new FileInputStream(path);
 				String value = WorkbookFactory.create(file).
 						       getSheet("Surya").getRow(i).getCell(j).
